@@ -1,0 +1,12 @@
+feature_id,lane_id,lat,lon,feature_type,confidence
+mf-001,lane-a,37.395,-122.150,lane_boundary,0.92
+mf-002,lane-a,37.396,-122.149,lane_boundary,0.88
+mf-003,lane-b,37.396,-122.148,crosswalk,0.91
+mf-004,lane-b,37.397,-122.148,stop_line,0.85
+mf-005,lane-c,37.395,-122.149,lane_boundary,0.94
+mf-006,lane-c,37.396,-122.150,crosswalk,0.89
+mf-007,lane-d,37.397,-122.149,lane_boundary,0.90
+mf-008,lane-d,37.395,-122.148,stop_line,0.87
+mf-009,lane-e,37.396,-122.149,lane_boundary,0.93
+mf-010,lane-e,37.397,-122.150,crosswalk,0.86
+mf-001,lane-a,37.395,-122.150,lane_boundary,0.92

@@ -1,0 +1,12 @@
+opportunity_id,segment,stage,region,amount_usd,close_month
+opp-001,enterprise,discovery,us-east,120000,2026-09
+opp-002,enterprise,demo,us-west,95000,2026-09
+opp-003,mid_market,negotiation,us-east,42000,2026-10
+opp-004,smb,discovery,emea,8000,2026-09
+opp-005,enterprise,closed_won,us-west,150000,2026-08
+opp-006,mid_market,demo,apac,28000,2026-10
+opp-007,smb,discovery,us-east,6000,2026-09
+opp-008,enterprise,negotiation,emea,110000,2026-11
+opp-009,mid_market,closed_lost,us-west,35000,2026-08
+opp-010,smb,demo,apac,12000,2026-10
+opp-001,enterprise,discovery,us-east,120000,2026-09

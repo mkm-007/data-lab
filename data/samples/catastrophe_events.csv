@@ -1,0 +1,12 @@
+event_id,region,hazard_type,severity,event_date
+cat-001,us-gulf,hurricane,4,2025-08-15
+cat-002,us-west,wildfire,5,2025-07-20
+cat-003,us-midwest,convective_storm,3,2025-06-10
+cat-004,us-east,hurricane,2,2025-09-01
+cat-005,us-west,wildfire,4,2025-08-05
+cat-006,us-south,hurricane,5,2025-09-12
+cat-007,us-west,earthquake,1,2025-05-18
+cat-008,us-midwest,convective_storm,2,2025-07-02
+cat-009,us-east,wildfire,3,2025-08-22
+cat-010,us-gulf,hurricane,4,2025-10-01
+cat-001,us-gulf,hurricane,4,2025-08-15
