@@ -21,3 +21,5 @@ def test_gtm_pipeline():
     result = run("gtm")
     assert result["clean"]["rows_after"] == 10
     assert "discovery" in result["top_categories"]
+    assert result["baseline_model"] is not None
+    assert result["baseline_model"]["target"] == "amount_usd"
