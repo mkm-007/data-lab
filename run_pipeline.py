@@ -4,7 +4,7 @@ import json
 
 from datalab.pipeline import run
 
-CHOICES = ["telemetry", "map", "catastrophe", "gtm"]
+CHOICES = ["telemetry", "map", "catastrophe", "gtm", "sports"]
 
 
 def main() -> None:

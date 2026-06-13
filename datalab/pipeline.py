@@ -6,7 +6,7 @@ from datalab.clean import dedupe_rows
 from datalab.config import DATA_DIR, DATASETS, OUTPUT_DIR
 from datalab.features import numeric_summary, top_categories
 from datalab.ingest import ingest_csv
-from datalab.models import baseline_regressor, gtm_deal_size_model
+from datalab.models import baseline_regressor, gtm_deal_size_model, sports_performance_model
 from datalab.report import write_reports
 
 
@@ -25,8 +25,12 @@ def run(dataset: str) -> dict:
     }
     if cfg.get("segment_col"):
         payload["top_segments"] = top_categories(cleaned, cfg["segment_col"])
+    if cfg.get("stat_col"):
+        payload["top_stat_types"] = top_categories(cleaned, cfg["stat_col"])
     if dataset == "gtm":
         payload["baseline_model"] = gtm_deal_size_model(cleaned)
+    elif dataset == "sports":
+        payload["baseline_model"] = sports_performance_model(cleaned)
     elif cfg.get("model_target"):
         payload["baseline_model"] = baseline_regressor(cleaned, cfg["model_target"])
     else:

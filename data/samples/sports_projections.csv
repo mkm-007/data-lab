@@ -1,0 +1,12 @@
+projection_id,sport,player,stat_type,line,projected,actual,game_date
+pp-001,NBA,J. Allen,points,24.5,26.1,28,2026-10-01
+pp-002,NBA,M. Brown,rebounds,8.5,7.9,6,2026-10-01
+pp-003,NBA,K. Walker,assists,6.5,6.8,7,2026-10-02
+pp-004,NFL,T. Hill,receiving_yds,72.5,78.0,81,2026-10-03
+pp-005,NFL,J. Mixon,rush_yds,68.5,64.2,59,2026-10-03
+pp-006,NFL,A. Brown,receptions,5.5,5.1,4,2026-10-04
+pp-007,LoL,PlayerX,kills,4.5,4.2,5,2026-10-05
+pp-008,LoL,PlayerY,assists,7.5,8.1,9,2026-10-05
+pp-009,CS2,PlayerZ,headshots,12.5,11.8,10,2026-10-06
+pp-010,NBA,S. Curry,points,29.5,30.4,33,2026-10-07
+pp-001,NBA,J. Allen,points,24.5,26.1,28,2026-10-01

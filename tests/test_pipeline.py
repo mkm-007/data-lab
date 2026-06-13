@@ -23,3 +23,13 @@ def test_gtm_pipeline():
     assert "discovery" in result["top_categories"]
     assert result["baseline_model"] is not None
     assert result["baseline_model"]["target"] == "amount_usd"
+
+
+def test_sports_pipeline():
+    result = run("sports")
+    assert result["clean"]["rows_after"] == 10
+    assert "NBA" in result["top_categories"]
+    assert result["baseline_model"] is not None
+    metrics = result["baseline_model"]["forecast_metrics"]
+    assert metrics["sports_covered"] == 4
+    assert metrics["stat_types"] == 8

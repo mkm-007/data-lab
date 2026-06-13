@@ -31,4 +31,20 @@ DATASETS = {
         "category_col": "stage",
         "segment_col": "segment",
     },
+    "sports": {
+        "file": "sports_projections.csv",
+        "required_columns": [
+            "projection_id",
+            "sport",
+            "player",
+            "stat_type",
+            "line",
+            "projected",
+            "actual",
+            "game_date",
+        ],
+        "dedupe_key": "projection_id",
+        "category_col": "sport",
+        "stat_col": "stat_type",
+    },
 }

@@ -7,6 +7,7 @@ Personal data pipeline lab for ETL, validation, feature summaries, lightweight M
 | `telemetry_events.csv` | `--dataset telemetry` | Data infra, event logs, observability |
 | `map_features.csv` | `--dataset map` | HD maps, geospatial QA |
 | `catastrophe_events.csv` | `--dataset catastrophe` | Risk/regional analytics |
+| `sports_projections.csv` | `--dataset sports` | DFS projections, line calibration, sports forecasting |
 | `gtm_pipeline.csv` | `--dataset gtm` | GTM funnel, demand gen, pipeline ML baselines |
 
 **Interview:** same repo — run the dataset that matches the role you applied for. Datasets are modules, not separate repos.
